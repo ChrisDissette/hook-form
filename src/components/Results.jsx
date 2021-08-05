@@ -6,15 +6,22 @@ const Results = (props) => {
 
     return (
         <div style={{
-            'width': '500px',
+            'width':'350px',
+            'height':'200px',
             'margin': 'auto',
-            'margin-top': '50px'
-
+            'margin-top':'40px',
+            'margin-bottom':'25px',
+            'padding':'30px',
+            'padding-left':'20px',
+            'border-radius':'20px',
+            'box-sizing':'border-box',
+            'background':'#ecf0f3',
+            'box-shadow':'14px 14px 20px #cbced1, -14px -14px 20px white' 
         }}>
-            <h3>First Name: {info.firstName}</h3>
-            <h3>Last Name: {info.lastName}</h3>
-            <h3>Email: {info.email}</h3>
-            <h3>Password: {info.password}</h3>
+            <p>First Name: {info.firstName}</p>
+            <p>Last Name: {info.lastName}</p>
+            <p>Email: {info.email}</p>
+            <p>Password: {info.password}</p>
         </div>
     )
 }
